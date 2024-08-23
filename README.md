@@ -1,7 +1,3 @@
-Here’s the updated README with the team members section added:
-
----
-
 # OpenArmor Documentation
 
 [![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://documentation.theopenarmor.org)
@@ -68,7 +64,3 @@ OpenArmor is an advanced AI-driven cybersecurity solution designed to meet the c
 At OpenArmor, we are committed to staying ahead of the evolving threat landscape. Our team of security experts, AI specialists, and software engineers work tirelessly to develop innovative solutions that address the most pressing cybersecurity challenges.
 
 By choosing OpenArmor, you're not just implementing a security solution – you're partnering with a leader in adaptive, intelligent cybersecurity. Let us help you build a resilient, future-ready security infrastructure that grows and adapts with your organization.
-
----
-
-This version includes the team members section, highlighting each individual's role within the project.
