@@ -3,7 +3,7 @@
 2.1 Release Notes
 ===================
 
-This section shows the most relevant new features of Armor v2.1. You will find more detailed information in our `changelog <https://github.com/armor/armor/blob/2.1/CHANGELOG.md>`_ file.
+This section shows the most relevant new features of Armor v2.1. You will find more detailed information in our `changelog <https://github.com/openarmor/armor/blob/2.1/CHANGELOG.md>`_ file.
 
 **New features:**
 

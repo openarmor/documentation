@@ -3,7 +3,7 @@
 Armor Puppet module
 ============================
 
-This `module <https://github.com/armor/armor-puppet>`_ has been authored by Nicolas Zin and updated by Jonathan Gazeley and Michael Porter. Armor has forked it with the purpose of maintaining it. Thank you to the authors for the contribution.
+This `module <https://github.com/openarmor/armor-puppet>`_ has been authored by Nicolas Zin and updated by Jonathan Gazeley and Michael Porter. Armor has forked it with the purpose of maintaining it. Thank you to the authors for the contribution.
 
 Install Armor module
 -------------------------------------------------------------------

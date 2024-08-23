@@ -124,7 +124,7 @@ It is necessary to configure the AWS CLI on your Armor manager to use the creden
 Run the python script to download the JSON data
 -----------------------------------------------
 
-We use a python script to download JSON files from the S3 bucket and convert them into flat files that can be used with Armor. This script was written by Xavier Martens `@xme <https://blog.rootshell.be>` and contains minor modifications done by Armor. It is located in our `repository <https://github.com/armor>`_ at ``armor/armor-ruleset/tools/amazon/getawslog.py``.
+We use a python script to download JSON files from the S3 bucket and convert them into flat files that can be used with Armor. This script was written by Xavier Martens `@xme <https://blog.rootshell.be>` and contains minor modifications done by Armor. It is located in our `repository <https://github.com/openarmor>`_ at ``armor/armor-ruleset/tools/amazon/getawslog.py``.
 
 Run the following command to use this script: ::
 

@@ -20,7 +20,7 @@ In the ruleset repository you will find:
 
 Resources
 ^^^^^^^^^
-* Visit our repository to view the rules in detail at `Github Armor Ruleset <https://github.com/armor/armor-ruleset>`_
+* Visit our repository to view the rules in detail at `Github Armor Ruleset <https://github.com/openarmor/armor-ruleset>`_
 * Find a complete description of the available rules at `Armor Ruleset Summary <http://www.armor.com/resources/Armor_Ruleset.pdf>`_
 
 

@@ -34,7 +34,7 @@ Installing Armor manager
 
   .. code-block:: bash
 
-    $ curl -Ls https://github.com/armor/armor/archive/v|ARMOR_LATEST|.tar.gz | tar zx
+    $ curl -Ls https://github.com/openarmor/armor/archive/v|ARMOR_LATEST|.tar.gz | tar zx
 
 3. Run the ``install.sh`` script, this will display a wizard that will guide you through the installation process using the Armor sources:
 

@@ -111,7 +111,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armor/armor-documentation.git"
+    "url": "git+https://github.com/openarmor/armor-documentation.git"
   },
   "keywords": [
     "Armor",
@@ -120,9 +120,9 @@
   "author": "Armor, Inc.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/armor/armor-documentation/issues"
+    "url": "https://github.com/openarmor/armor-documentation/issues"
   },
-  "homepage": "https://github.com/armor/armor-documentation#readme",
+  "homepage": "https://github.com/openarmor/armor-documentation#readme",
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@rollup/plugin-babel": "^6.0.4",
