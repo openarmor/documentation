@@ -53,12 +53,6 @@ OpenArmor is an advanced AI-driven cybersecurity solution designed to meet the c
 - **[LinkedIn](https://linkedin.com/company/openarmor)**
 - **[GitHub](https://github.com/openarmor)**
 
-### What Our Clients Say
-
-"OpenArmor's AI-driven threat detection has significantly improved our security posture and response times." - CISO, Fortune 500 Company
-
-"The deep visibility provided by OpenArmor's eBPF technology has been invaluable in understanding and securing our complex infrastructure." - Head of IT Operations, Global Financial Services Firm
-
 ### Empower Your Cybersecurity Strategy
 
 At OpenArmor, we are committed to staying ahead of the evolving threat landscape. Our team of security experts, AI specialists, and software engineers work tirelessly to develop innovative solutions that address the most pressing cybersecurity challenges.
