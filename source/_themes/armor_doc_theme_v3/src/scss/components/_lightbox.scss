@@ -1,0 +1,27 @@
+/* -----------------------------------------------------------------------------
+  Component: Customization for lightbox
+
+  Style adjustments for the elements created by our custom extension:
+  armor_doc_images.
+----------------------------------------------------------------------------- */
+
+#armor-light-box-overlay {
+  z-index: 2000;
+}
+#armor-light-box {
+  z-index: 2100;
+
+  .armor-light-box-slides-container {
+    padding: 60px;
+    margin: 60px
+  }
+
+  .wlb-image {
+    max-height: calc(100vh - 8rem - 40px);
+    border: 10px solid $color-img-border;
+  }
+}
+
+.armor-image-wrapper {
+  display: inline;
+}

@@ -1,0 +1,68 @@
+<div class="navbar-brand">
+  <a
+    class="logo-link docs d-flex align-items-baseline"
+    href="{{ theme_armor_web_url }}"
+    target="_blank"
+    rel="noreferrer noopener"
+  >
+    <span class="sr-only">OpenArmor</span>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 200 200"
+      width="29"
+      height="29"
+    >
+      <defs>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2" />
+        </filter>
+      </defs>
+      <circle cx="100" cy="100" r="90" fill="white" filter="url(#shadow)" />
+      <circle
+        cx="100"
+        cy="100"
+        r="85"
+        fill="none"
+        stroke="#003366"
+        stroke-width="6"
+      />
+      <path
+        d="M100,40 L140,65 V110 A40,40 0 0,1 100,150 A40,40 0 0,1 60,110 V65 Z"
+        fill="#003366"
+      />
+      <circle cx="100" cy="80" r="8" fill="white" />
+      <g fill="#FF4500">
+        <circle cx="100" cy="25" r="4" />
+        <circle cx="135" cy="35" r="4" />
+        <circle cx="165" cy="65" r="4" />
+        <circle cx="175" cy="100" r="4" />
+        <circle cx="165" cy="135" r="4" />
+        <circle cx="135" cy="165" r="4" />
+        <circle cx="100" cy="175" r="4" />
+        <circle cx="65" cy="165" r="4" />
+        <circle cx="35" cy="135" r="4" />
+        <circle cx="25" cy="100" r="4" />
+        <circle cx="35" cy="65" r="4" />
+        <circle cx="65" cy="35" r="4" />
+      </g>
+      <path
+        d="M40,110 A60,60 0 0,0 100,170 A60,60 0 0,0 160,110"
+        fill="none"
+        stroke="#FF4500"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M40,90 A60,60 0 0,1 100,30 A60,60 0 0,1 160,90"
+        fill="none"
+        stroke="#FF4500"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+    </svg>
+
+    {% if theme_breadcrumb_root_title == 'Training'%}
+    <span style="margin-left: 10px">{{ theme_breadcrumb_root_title }}</span>
+    {% endif %}
+  </a>
+</div>
