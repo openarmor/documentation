@@ -1,0 +1,55 @@
+.. _armor_agent_deb:
+
+Install Armor agent with DEB packages
+=====================================
+
+The DEB package is suitable for Debian, Ubuntu, and other Debian-based systems.
+
+.. note:: Many of the commands described below need to be executed with root user privileges.
+
+Adding the Armor repository
+---------------------------
+
+The first thing you need is to add the Armor repository to your server. Alternatively, if you prefer to download the armor-agent package directly, you can find it :ref:`here <packages>`.
+
+1. In order to perform this procedure properly, packages ``curl``, ``apt-transport-https`` and ``lsb-release`` must be present on your system. If they are not, install them:
+
+	.. code-block:: bash
+
+		$ apt-get install curl apt-transport-https lsb-release
+
+2. Install the Armor repository GPG key:
+
+	.. code-block:: bash
+
+		$ curl -s https://packages.armor.com/key/GPG-KEY-ARMOR | apt-key add -
+
+3. Getting the distribution codename and adding the repository:
+
+   .. code-block:: bash
+
+	CODENAME=$(lsb_release -cs)
+	echo "deb https://packages.armor.com/apt $CODENAME main" \
+	| tee /etc/apt/sources.list.d/armor.list
+
+These are the supported codename values:
+
+	- For Debian: wheezy, jessie, stretch and sid
+	- For Ubuntu: trusty, vivid, wily, xenial and yakkety
+
+4. Update the package information:
+
+	.. code-block:: bash
+
+		$ apt-get update
+
+Installing Armor agent
+----------------------
+
+On your terminal, install the Armor agent:
+
+	.. code-block:: bash
+
+		$ apt-get install armor-agent=|ARMOR_LATEST|-|ARMOR_REVISION_DEB_AGENT_X86|
+
+.. note:: At this point your agent is installed and you just need to register and configure it to talk to your manager. For more information about this process please visit our user manual.
