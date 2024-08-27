@@ -107,11 +107,11 @@ The request has failed when you see the above output have ``"mlockall" : false``
 
 Reference:
 
-  - `Memory lock check <https://www.elastic.co/guide/en/elasticsearch/reference/current/_memory_lock_check.html>`_.
-  - `bootstrap.memory_lock <https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html#bootstrap.memory_lock>`_.
-  - `Enable bootstrap.memory_lock <https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html#mlockall>`_.
-  - `Heap: Sizing and Swapping <https://www.elastic.co/guide/en/elasticsearch/guide/current/heap-sizing.html>`_.
-  - `Limiting memory usage <https://www.elastic.co/guide/en/elasticsearch/guide/current/_limiting_memory_usage.html#_limiting_memory_usage>`_.
+  - `Memory lock check <https://www.elastic.co/guide/en/elasticsearch/reference/_memory_lock_check.html>`_.
+  - `bootstrap.memory_lock <https://www.elastic.co/guide/en/elasticsearch/reference/important-settings.html#bootstrap.memory_lock>`_.
+  - `Enable bootstrap.memory_lock <https://www.elastic.co/guide/en/elasticsearch/reference/setup-configuration-memory.html#mlockall>`_.
+  - `Heap: Sizing and Swapping <https://www.elastic.co/guide/en/elasticsearch/guide/heap-sizing.html>`_.
+  - `Limiting memory usage <https://www.elastic.co/guide/en/elasticsearch/guide/_limiting_memory_usage.html#_limiting_memory_usage>`_.
 
 Shards and replicas
 ----------------------------------------
@@ -158,7 +158,7 @@ In case you want to change these settings you need to edit the Elasticsearch tem
 
 .. warning::
 
-    We assume that your index has not yet been created, otherwise you will have to `reindex <https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html>`_ after editing the template.
+    We assume that your index has not yet been created, otherwise you will have to `reindex <https://www.elastic.co/guide/en/elasticsearch/reference/docs-reindex.html>`_ after editing the template.
 
 1. Download the Armor Elasticsearch template::
 

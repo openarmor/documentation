@@ -127,4 +127,4 @@ Now we will configure Filebeat to verify the Logstash server's certificate.
 			$ service filebeat restart
 
 .. note::
-	More detailed information is available in the `Securing communication with Logstash <https://www.elastic.co/guide/en/beats/filebeat/current/configuring-ssl-logstash.html>`_ guide from Elastic.
+	More detailed information is available in the `Securing communication with Logstash <https://www.elastic.co/guide/en/beats/filebeat/configuring-ssl-logstash.html>`_ guide from Elastic.

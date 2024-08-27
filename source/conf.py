@@ -128,7 +128,7 @@ html_theme = 'armor_doc_theme_v3'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'armor_web_url': 'https://theopenarmor.com',
+    'armor_web_url': 'https://theopenarmor.org',
     'armor_doc_url': 'https://documentation.theopenarmor.org',
     'collapse_navigation': False, # Only for Armor documentation theme v2.0
     'include_edit_repo': True,

@@ -21,7 +21,7 @@ Components
 
 - :doc:`RESTful API <api/index>`: It provides an interface to manage and monitor the configuration of the manager and agents, also it could register clients/agents. It can be also used to inspect the manager log messages, decoders and rules. In addition it provides useful information related to the agents, including their status, operating system details, and file integrity monitoring and rootcheck alerts.
 
-+ **Filebeat**: It is used in distributed architectures (where the Armor server and Elastic Stack live in different systems) to forward the alerts data to Logstash. This component has its own `documentation <https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html>`_ developed by Elastic.
++ **Filebeat**: It is used in distributed architectures (where the Armor server and Elastic Stack live in different systems) to forward the alerts data to Logstash. This component has its own `documentation <https://www.elastic.co/guide/en/beats/filebeat/filebeat-overview.html>`_ developed by Elastic.
 
 Elastic Stack
 -------------
@@ -34,11 +34,11 @@ Components
 
 - **Armor app**: is a Kibana plugin designed to display Armor related information providing a RESTful API web interface making administration of Armor Manager and Armor Agents easy and powerful.
 
-+ **Logstash**: is used to ingest data coming from  one or more Armor servers via Filebeat, feeding the Elasticsearch cluster. In addition it enriches alerts adding Geolocation metadata. More information at `Logstash official documentation <https://www.elastic.co/guide/en/logstash/current/index.html>`_.
++ **Logstash**: is used to ingest data coming from  one or more Armor servers via Filebeat, feeding the Elasticsearch cluster. In addition it enriches alerts adding Geolocation metadata. More information at `Logstash official documentation <https://www.elastic.co/guide/en/logstash/index.html>`_.
 
-- **Elasticsearch**: is a highly scalable full-text search and analytics engine. It is used to index alerts data, and historical agents statuts information. More information at `Elasticsearch official documentation <https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html>`_.
+- **Elasticsearch**: is a highly scalable full-text search and analytics engine. It is used to index alerts data, and historical agents statuts information. More information at `Elasticsearch official documentation <https://www.elastic.co/guide/en/elasticsearch/reference/index.html>`_.
 
-+ **Kibana**: is a flexible and intuitive web interface for mining, analyzing, and visualizing data. In combination with our Armor Kibana app, it is used as Armor web user interface (WUI). More information at `Kibana official documentation <https://www.elastic.co/guide/en/kibana/current/index.html>`_.
++ **Kibana**: is a flexible and intuitive web interface for mining, analyzing, and visualizing data. In combination with our Armor Kibana app, it is used as Armor web user interface (WUI). More information at `Kibana official documentation <https://www.elastic.co/guide/en/kibana/index.html>`_.
 
 Armor agents
 ------------
